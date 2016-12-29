@@ -1,0 +1,21 @@
+{
+	"name": "jimmytournemaine/util-bundle",
+	"license": "MIT",
+	"type": "bundle",
+	"description": "Some useful tools for Symfony developers",
+	"autoload": {
+		"psr-4": { "JT\\UtilBundle\\": "" }
+	},
+	"require": {
+		"php": ">=7.0",
+		"symfony/symfony": ">=2.6"
+	},
+	"authors": [
+		{
+			"name": "Jimmy Tournemaine",
+			"email": "jimmy.tournemaine@yahoo.fr",
+			"role": "Developer"
+		}
+	]
+}
+
