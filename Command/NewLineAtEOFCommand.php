@@ -25,7 +25,7 @@ class NewLineAtEOFCommand extends Command
         $process = new Process($this->getCommandLine($input));
         $process->run();
         
-        if($process->isSuccessful() == false) {
+        if($process->isSuccessful() === false) {
         	throw new ProcessFailedException($process);
         }
         
